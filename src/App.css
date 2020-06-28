@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.div-row {
+  justify-content: center;
+}
+.header {
+  background-color: blue;
+  color: white;
+  height: 50px;
+  top: 0; 
+}
+main{
+  background-color: rgb(185, 248, 248);
+    
+    justify-content: center;
+}
+select {
+  margin-top: 20px;
+}
+.select-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-box {
+  justify-content: center;
+}

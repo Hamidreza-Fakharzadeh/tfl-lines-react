@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tfl-lines-react/static/css/main.4b80d739.chunk.css",
+    "main.js": "/tfl-lines-react/static/js/main.5822a033.chunk.js",
+    "main.js.map": "/tfl-lines-react/static/js/main.5822a033.chunk.js.map",
+    "runtime-main.js": "/tfl-lines-react/static/js/runtime-main.52ef0afd.js",
+    "runtime-main.js.map": "/tfl-lines-react/static/js/runtime-main.52ef0afd.js.map",
+    "static/js/2.a5a32b17.chunk.js": "/tfl-lines-react/static/js/2.a5a32b17.chunk.js",
+    "static/js/2.a5a32b17.chunk.js.map": "/tfl-lines-react/static/js/2.a5a32b17.chunk.js.map",
+    "index.html": "/tfl-lines-react/index.html",
+    "precache-manifest.d3549a3b811ef30428d32a317b99a910.js": "/tfl-lines-react/precache-manifest.d3549a3b811ef30428d32a317b99a910.js",
+    "service-worker.js": "/tfl-lines-react/service-worker.js",
+    "static/css/main.4b80d739.chunk.css.map": "/tfl-lines-react/static/css/main.4b80d739.chunk.css.map",
+    "static/js/2.a5a32b17.chunk.js.LICENSE.txt": "/tfl-lines-react/static/js/2.a5a32b17.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52ef0afd.js",
+    "static/js/2.a5a32b17.chunk.js",
+    "static/css/main.4b80d739.chunk.css",
+    "static/js/main.5822a033.chunk.js"
+  ]
+}

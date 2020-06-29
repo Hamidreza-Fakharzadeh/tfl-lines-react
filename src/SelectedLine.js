@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-
+import LineRoute from "./LineRoute";
 
 const SelectedLine = (props) => {
     const [lines, setLines] = useState([]);
@@ -21,20 +21,21 @@ const SelectedLine = (props) => {
     
 
     const changeHandler = (event) => {
-        setLineId(event.target.value === "Choose kind of Transport" ? "Choose Your Line": event.target.value)
+        setLineId(event.target.value)
    }    
 
     return(
         <div>
-            <select onChange={changeHandler}>{console.log(lines)}
-                <option> Choose Your Line</option>
-                {lines.map((line, index) => {
-                    
-                return <option key={index}>{line.id}</option>
+            <select onChange={changeHandler}>
+                <option className="option-line"> Choose Your Line</option>
+                {lines.map((line) => {
+                   console.log(lineId) 
+                return <option key={line.id}>{line.id}</option>
                     })
                 }
             </select>
             {!loaded ? <h1>loading</h1> : err ? <h3>404</h3> : ""}
+            <LineRoute lineId={lineId}/>
         </div>
         
     )
